@@ -8,8 +8,8 @@ This small tool is based on javascript File API. I check it with <i>if(window.Fi
 
 How to use: simply put srt2vtt.js to head place, e.g. &ltscript src="srt2vtt.js"&gt&lt/script&gt. then call srt2vtt.init with an DIV id which you want to place the srt2vtt convertor in. e.g.:
 
-&ltdiv id="srt_to_vtt"&gt&lt/div&gt
-&ltscript&gtsrt2vtt.init("srt_to_vtt")&lt/script&gt
+&lt;div id="srt_to_vtt"&gt;&lt;/div&gt;
+&lt;script&gt;srt2vtt.init("srt_to_vtt")&lt;/script&gt;
 
 That's it. after you select a SubRip file, you will get the Webvtt file. All in Javascript.
 
